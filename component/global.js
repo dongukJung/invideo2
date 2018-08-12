@@ -1,0 +1,1 @@
+ServerURL = 'http://128.54.112.69:4000/api/auth/exists/email/yseolk@gmail.com'

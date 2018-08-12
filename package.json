@@ -1,0 +1,38 @@
+{
+  "name": "testapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@tensorflow-models/posenet": "^0.2.2",
+    "@tensorflow/tfjs": "^0.12.4",
+    "babel-preset-react-native": "2.1.0",
+    "eslint": "^3.17.0",
+    "minipass": "^2.2.4",
+    "mkdirp": "^0.5.1",
+    "number-is-nan": "^1.0.1",
+    "opentok-react-native": "^0.8.3",
+    "react": "^16.3.1",
+    "react-native": "^0.55.4",
+    "react-native-camera": "^1.2.0",
+    "react-native-easy-toast": "^1.1.0",
+    "react-native-svg": "^6.5.2",
+    "react-native-youtube": "^1.1.0",
+    "react-navigation": "^2.11.2",
+    "wrappy": "^1.0.2",
+    "yallist": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.47",
+    "babel-core": "^6.26.3",
+    "babel-jest": "23.4.2",
+    "jest": "23.5.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
